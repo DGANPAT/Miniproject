@@ -1,0 +1,36 @@
+public class MySingleton implements Clonable,Serilizable
+{
+	private final static singleton;
+	private MySingleton()
+	{
+		
+	}
+	
+	public static MySingleton getMySingletonobject()
+	{
+		syncronised(MySingleton.class){
+		
+		if(singleton==null)
+		{
+			return singleton=new MySingleton();
+		}
+		else
+		{
+			return singleton;
+		}
+	}
+	public Object Clone()
+	{
+		try{
+		return singleton;
+		}catch(Exception e)
+		{
+			return null;
+		}
+
+	}
+	public Object readresolve()
+	{
+		return null;
+	}
+}

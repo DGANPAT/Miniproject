@@ -1,0 +1,45 @@
+
+import java.util.Scanner;
+
+public class MainStudent 
+{
+	 static String a="A";
+	 static String b="B";
+	 static String c="C";
+	 
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		StudentInformation student=new StudentInformation();
+		QuizAnsInpute ansInpute=new QuizAnsInpute();
+		StudentResult result=new StudentResult();
+		ClassResult result2=new ClassResult();
+		System.out.println("CHOOSE ANY ONE OPTIONOF THE FOLLOWING");
+		System.out.println();
+		System.out.println("FOR EXAMINATION: A"+"  "+"ALL STUDENT RESULT OF CLASS : B"+"  "+"ONLY ONE STUDENT RESULT: C");
+		String run=sc.nextLine();
+		
+		if(a.equals(run)) {
+		System.out.print("HOW MANY STUDENT PRESENT FOR EXAM:");
+		int user=sc.nextInt();
+		
+		for(int i=1;i<=user;i++) 
+		{
+		student.getStudentInformation();
+		ansInpute.getQuizAnsInpute(student.name);
+		}
+		}
+		 if(b.equals(run))
+		{
+		result2.getClassResult();
+		}
+		 if ( c.equals(run)) 
+		{
+			System.out.println("Enter your roll number");
+			int studentRollNumber=sc.nextInt();
+			result.getStudentResult(studentRollNumber);
+			
+		}
+		
+	}
+}

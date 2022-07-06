@@ -1,0 +1,85 @@
+public class StringReverse
+{
+	public static void main(String [] args)
+	{
+	String s="I LoveMy Country";
+	
+	StringBuffer reverse=new StringBuffer("");
+	
+	for(int i=s.length()-1;i>=0;i--)
+	{
+		reverse=reverse+s.charAt(i);
+	}
+	System.out.println("reverse string is"+reverse);
+	}
+}
+
+public static void main(String[] args)
+	{
+		HashMap<String,Integer> hm=new HashMap<String,Integer>();
+		hm.put("kapil",20);
+		hm.put("kapilDD",30);
+
+		hm.put("kapilGG",40);
+		hm.put("kapilff",50);
+
+	Set<Map.Entry<HashMap<String,Integer>> hSert=hm.EntrySet();
+	for(Map.Entry<HashMap<String,Integer> key;hSert)
+	{
+		System.out.println("key:"+hm.getKey(key)+"Value:"+hm.getValue(key));
+	}
+}
+		int [] a={1,2,3,43,3,2,1};
+		
+		int l=a.length;
+		for(int i=0;i<=l;i++)
+		{
+			for(int j=i+1;j<=l;j++)
+				{
+					if(a[i]<a[j])
+						{		
+							int temp=a[i];
+							a[i]=a[j];
+							a[j]=temp;
+						}
+				}
+		}
+		System.out.println("desc array"+a[i])
+
+
+	@Entity
+	@table (name="Employee")
+	public class Employee
+{
+	@colum(name="id")
+	public getId(int id)
+	{
+		this.id=id;
+	}
+public setId(int id)
+	{
+		this.id=id;
+	}
+	@colum(name="Sallary")
+	public getSallary(int salary)
+	{
+		this.sllary=sallary;
+	}
+	public setSallary(int salary)
+	{
+		this.sllary=sallary;
+	}
+	@colum(name="adress")
+	public getAdress(String adress)
+	{
+		this.adress=adress;
+	}
+	@colum(name="adress")
+	public setAdress(String adress)
+	{
+		this.adress=adress;
+	}
+	@ManyToMany(Cashcade= cashCade.all)
+	Table2 table2;
+	
+	

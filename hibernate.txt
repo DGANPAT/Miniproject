@@ -1,0 +1,19 @@
+Hibernate step
+
+public static void main(String[] args)
+{
+	Configuration cfg= new Configuration();
+	cfg.configure("hibernate.xml");
+	SesssionFactory sf=cfg.buildSesssionFactory();
+	Sesssion sesssion=sf.openSession();
+	Transection t=session.beginTransection();
+	Customer customer=new Customer();
+	custmer.setName();
+	Transection transection=new Transection();
+	transection.setDate(new Date());
+	customer.setTransection(transetion);
+	session.save(customer);
+	t.commit();
+	session.close()
+	sf.colse();
+}

@@ -1,0 +1,32 @@
+@Restcontroller
+@RequestMapping("policy")
+ PolicyController
+{
+	@Autrowired
+	private PolicyService policyService
+	
+		@PostMapping("/save")
+	  public ResponseEntity<Policy> createPolicy(@RequestBody Policy policy, HttpServletRequest request)
+			throws Exception {
+		Policy createdPolicy = this.policyService.savePolicy(policy);
+		 
+		return ResponseEntity.ok().body(createdPolicy);
+	}
+}
+@Service
+PolicyService
+{
+	@Autowired
+	public Repository repo;
+	
+	 public Policy savePolicy(Policy policy) {
+		 
+		return repo.save(policy);
+	}
+}
+@Repository
+public interface Repository extends Crudrepository<Policy,Serilizable>
+{
+	public Policy findById(Integer id);
+}
+

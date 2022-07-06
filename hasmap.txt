@@ -1,0 +1,13 @@
+  Select sallary from(Select sallary from emp order by desc nth)as emp order by limit 1;
+select*from emp order by salary desc limit nth,1;
+
+HashMap<Integer,String> hs=new HashMap<Integer,String>();
+hs.put(10,"k");
+hs.put(12,"A");
+hs.put(13,"b");
+
+Set<Map.Entry<Integer,String>>  set=hs.EntrySet().Iterator();
+foe(<Map.Entry<Integer,String>> z: set)
+{
+	System.out.println("key"+ z+ "value" + hs.get(z));
+}

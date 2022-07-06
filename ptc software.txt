@@ -1,0 +1,43 @@
+if(cash<100)
+{
+	throw new FundIsNotAvailable("fund not vailable");
+}
+
+public FundNotAvailable extends RunetimeException
+{
+		public FundNotAvailable(String s)
+		{
+			Super(s);
+		}
+}
+ArrayList<String> al=new ArrayLisyt<>();
+HashSet<String> hs=new HashSet<String>();
+for(String s:al)
+{
+	boolean c=hs.add(s);
+	if(c==false)
+	{
+		System.out.println(s);
+	}
+}
+
+String s="ganpatrao";
+for(int i=0;i<=s.length()-1;i++)
+{
+	int count =1;
+	for(int j=i+1;j<=s.length()-1;j++)
+	
+		if(s[i]==s[j])
+		{
+			count++;
+		s[j]='';
+		}
+	}
+	for(int i)
+
+
+
+
+
+
+

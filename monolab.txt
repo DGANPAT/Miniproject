@@ -1,0 +1,72 @@
+Find if s1 is a substring of s2.
+s2= “Meet me in the Meeting Room”,  s1=”Meet” 
+s2= “Meet me in the Meeting Room”,  s1=”meet” 
+s2= “Meet me in the meeting Room”,  s1=”GRoom”
+s2=”Meet me in the Meeting Room”, s1= “ in the ”(Please note there is a space in front of ‘in’ and a space after ‘the’)
+s2 =”Meet me in the Meeting Room”,   s1=”*Meet”
+
+
+public class Tasck
+{
+
+public static void main(String[] args)
+{
+
+
+		String s2="Meet me in the Meeting Room";
+		char [] s3=s2.toCharArray();
+		String s1="";
+		for(int i=0;i<=s3.lenght()-1;i++)
+		{
+			s1=s1+s3.charAt(i);
+			if(s1.equals("Meet"))
+			{
+				 System.out.println("This is substring of s2");
+			}else if(s1.equals("in the"))
+			{
+
+				System.out.println("This is substring of s2");
+			}else if(s1.equals("Meeting"))
+
+			{
+				System.out.println("This is substring of s2");
+
+			}else
+			{
+			
+				System.out.println("This is not substring of s2");
+			}
+		}
+}
+How do you check if a given string is a palindrome?
+nitin
+nitiin
+Toohottohoot
+too hot to hoot
+too&hot*toh&ootoo&hot*toh$oot
+--
+
+String s="nitin";
+String s2="";
+for(int i=s.length()-1;i>=0;i--)
+{
+	s2=s2+s.charAt(i);
+
+}
+	if(s2.equals(s))
+	{
+		System.out.println("This is palidrom string");
+	}
+	else
+	{
+			System.out.println("This is not palidrom string");
+
+	}
+}
+
+
+
+
+
+
+			

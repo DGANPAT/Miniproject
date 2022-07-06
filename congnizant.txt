@@ -1,0 +1,58 @@
+public class Task
+{
+	
+		String s="ganpat";
+		int count=0;
+		char[] s1=s.toCharArray();
+		for(int i=0;i<s1.length();i++)
+		{
+			for(int j=i+1;j<s1.length();j++)
+				{
+					if(s1[i]==s1[j])
+					{ s1[i]=' ';
+					}
+					count++;
+				}
+				
+		}
+		System.out.println(count);
+}
+
+
+public class MySingleton
+{
+
+public static String singleton;
+private MySingleton()
+{
+
+}
+
+public static MySingleton getSingltonObj()
+{
+		Syncronised(MySinglton.class){
+
+
+
+		if(singleton==null)
+		{
+			return singleton= new MySingleton();
+		}
+		else
+		{
+			return singleton;
+		}
+}
+}
+
+protected Object clone()
+	try{
+		return singleton;
+	}catch
+	{
+		return null;
+	}
+protected Object readResolve()
+{
+	return singleton;
+}

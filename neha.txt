@@ -1,0 +1,61 @@
+public class Array{
+public static void main(String [] args){
+int count=0,temp=0;
+int[]arr =new int[]{1,2,3,4,5,6,7,8,9};
+for(int i=0;i<arr.length;i++){
+count=0;
+for(int j=i+1;j<arr.length;j++){
+count=1;
+}
+int length=count/3;
+for( i=0;i<arr.length;i++){
+temp=arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+}
+System.out.println(arr[i]);
+
+
+}
+
+
+}
+}
+public class Rotate{
+public static void main(String [] args){
+int length=s.length();
+String output="";
+char[]ch=s.toCharArray();
+String start,end=0;
+System.out.println("Enter the String");
+Scanner r=new Scanner(System.in);
+r.nextLine();
+System.out.println("all rotation");
+generate rotation (s,0,len);
+if(start==end-1){
+System.out.println(s);
+else{
+for(int =start;i<end;i++){
+s=swap(s,start,end);
+generate rotation =(s,start+1,end);
+}
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+}

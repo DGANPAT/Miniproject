@@ -1,0 +1,39 @@
+//RestCntrollerclass
+@RestController
+PolicyCOntroller
+{
+	@Autowired
+	private PolicyService policyService;
+	
+	@GetMapping(/getId/{id})
+	public ResponceEntity<Policy> getPolicyById(@PathVeriable "id" Integer id)
+	{
+		Policy policy=policyService.getPolicyBuId();
+		return ResponceEntity.ok().body(policy);
+	}
+}
+@Service
+class Service {
+
+@Autowired
+private Repository repo;
+
+@Override
+	public Policy getPolicyById(Integer Id) 
+	{
+		logger.info("Policy Service Implementation : getPolicyById() method");
+		Policy policy=repo.findById(Id);//6
+		if(policy==null) {
+			throw new PolicyTypeException("Policy id "+Id+" incorrect..");
+		}
+		return policy;
+	}
+@Repository
+public interface Repository extends CrudRepository<Policy ,Serilizable>
+{
+	public Policy findById(Integer Id);
+}
+
+
+
+

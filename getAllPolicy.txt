@@ -1,0 +1,27 @@
+@Restcontroller
+ PolicyController
+{
+	@Autrowired
+	private PolicyService policyService
+	@GetMapping("getAll")
+	 public ResponseBody Iterable<Policy> getAllPolicy() throw Exception{
+		return policyService.getAllPolicy();
+	}
+}
+@Service
+PolicyService
+{
+	@Autowired
+	public Repository repo;
+	
+	public Iterable<Policy> getAllPolicy()
+	{
+		return repo.findAll();
+	}
+}
+@Repository
+public interface Repository extends Crudrepository<Policy,Serilizable>
+{
+	public Policy findById(Integer id);
+}
+

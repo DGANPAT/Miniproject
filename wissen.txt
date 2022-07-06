@@ -1,0 +1,172 @@
+List<Integer> list1=numbers.stream().filter(i->i>=0).collect(Collectors.toList);
+System.out.println(list1);
+
+HashMap<Account,sell/
+
+HashSet<Stock> Ss=new HashSet<Stock>();
+ss.add("Stock1");
+ss.add("stock");
+
+
+for(Stock s:ss)
+{
+
+		if(ss.size()>)
+
+public class A{
+
+private static Map<Class<? extends A>A> instances =new HashMap<>();
+public A()
+{
+
+	Syncronised(A.class)
+	{
+		if(instances.containsKey(this.getClass))
+		{
+			throw new IlegalStateException();
+		}
+		else
+		{
+			instances.getClass();
+		}
+
+	}
+}
+
+
+
+public class MySingleton
+{
+	private static singleton;
+
+	private MySingleton()
+{
+
+}
+
+public MySingleton getSingletonObj()
+	{
+		Syncronised(MySingleton.class){
+
+		if(sinleton==null)
+		{
+			return singleton=new MySingleton();
+		}
+		else
+		{
+			return singleton;
+		}
+	}
+
+protected Object clone()
+	{
+		try{
+
+		return singleton;
+	
+		}
+		catch
+		{
+			return null;
+
+		}
+peotwcted object readresolved()
+		{
+			return singleton
+		}
+}
+
+
+
+public class Employee
+{
+
+
+	String name;
+	int call;
+
+publ;ic Employee(String name,int call)
+{
+		this.name=name;
+		this.call=call;
+
+}
+public String getName()
+{
+	return name;
+}
+public void setName(String name)
+this name=name;
+}
+public String getName()
+{
+	return name;
+}
+public void setName(String name)
+this name=name;
+}
+select id,count(*) from 
+(select id from t1 union all select id from t2)A groupby id;
+
+public class Task implement Runnable
+{
+
+	@ovveride
+	void run()
+	{
+		int number1=Num;
+		while(num>0)
+		{
+			if()
+		
+	}
+}
+
+
+public class Number
+{
+private volitile numb;
+public vou GetNumber(int number)
+Sysncronised(Number.clss)
+{
+	while(num>0)
+	{
+		wait();
+	}
+	catch
+{
+throw new currentThread.IntruptedException();
+}
+System.out.println(thread.currentThread.InterptedException);
+}
+num=true;
+notify;
+public vou GetNumber1(int number)
+Sysncronised(Number.clss)
+{
+	while(num>0)
+	{
+		wait();
+	}
+	catch
+{
+throw new currentThread.IntruptedException();
+}
+System.out.println(thread.currentThread.InterptedException);
+}
+num=true;
+notify;
+
+
+public static void main(String [] args)
+{
+Number num=new Number();
+Thread th=new Thread();
+Thread th1=new Thread();
+
+th.start();
+th1.start();
+}
+
+
+

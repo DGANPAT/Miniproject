@@ -1,0 +1,605 @@
+ [9:52 PM, 5/16/2022] @ Mamta Kalaskar: Star patterns design pattern
+-Reverse array with algorithm 
+-Connection of API one to one
+-Collable 
+-How to disable autoconfiguration from 5 configuration class
+-Singleton class design all program.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1. Introduce yourself 
+2. Explain your project
+3. what is your role in project
+4. why we use get ,post,put ,delete
+5. difference between post and put
+6. can we use post for update the record
+7. which collection you use in your project
+8. difference between hashmap and hashtable
+9. difference between arrayist and linkedlist
+10. why linkedlist is best for insertion and deletion operation
+11. internal working of arraylist and linkedlist
+12. how you test your API in postman?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1. introduce yourself
+2. brief your project
+3. Your roles and responsibilities.
+4. How Spring boot project works (flow form main run method)
+5.did you done JUnit testing..?
+6. Which repository you have used
+7. Explain repository at DAO layer
+8. Login validation and authentication
+9. How do you achieve basic authentication security
+10. How you Marge yours and your colleague  code in GIT (command).
+11. How you push your code to github.
+12. Why java not 100 oop
+13. Pillars of oop 
+14. Why interface support multiple inheritance.
+15. That is thread 
+16 . What is exception how to handle it
+17. collections ?
+18  why map does not belong to collection interface..?
+19. Internal working of set.
+20. fizzbuzz program .
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Write a program that picks a random integer from 1 to 100, and has players guess the number. The rules are: If a player's guess is less than 1 or greater than 100, say "OUT OF BOUNDS" On a player's first turn, if their guess is within 10 of the number, return "WARM!" further than 10 away from the number, return "COLD!" On all subsequent turns, 
+if a guess is closer to the number than the previous guess return "WARMER!" farther from the number than the previous guess, return "COLDER!" When the player's guess equals the number, tell them they've guessed correctly and how many guesses it took!
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1. Difference between JPR repository and curd repository
+2. It is compulsory to create new class in comparator
+3. What is paging and sorting in JPA repository
+4. In given array find even number using stream API
+6. MVC flow
+7. Difference between control and rast controller
+8. Internal working Hashmap
+9. Java 8 feature
+10. What is your last task in your project
+11.WAP multiply 2 number without using multiply operator
+12.tell me your daily schedule
+13.what is JPA Repository
+14.tell me about your project in brief
+15. Flow of your project
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1.Difference between normal dependency and parent dependency.
+2.Lambda expression with value and without foreach.
+3. Purposes of functional interface
+4. how to use 2 database within one web services
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1. Introduce yourself 
+2. Explain your project
+3. what is your role in project
+4. why we use restAPI?
+5. difference between p?patch and put
+6. How to map hibernate with spring boot ?
+7. which collection you use in your project
+8. difference between hashmap and hashtable
+9. difference between wait and sleep
+10. why linkedlist we use 
+11. internal working of arraylist and hashmap
+12. how you creat the link to test your API in postman?
+13. Which collection class requested to store state, state code and Chief minister in object
+14. Why vector we use ?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1. introduce your self
+2. what is difference between puth and post 
+3. can we use post for update the record
+4. if your using tomcat 9.0 in spring boot then how you chnage it to 10.0
+5. any other way to configure our spring boot application insted of application.properties or application.yml
+6. how you wirte restful
+7. i have to create object without new keyword in other class then which annotation is used
+8. success status code
+9. bad request status code
+10. can we override constructor
+11. Strin s="akash"
+    String s1=new String("akash")
+    String s2=new String("akash")
+    String s4="akash"
+  how many objects will create
+   sop(s1==s2)	
+   sop(s2==s3)
+   sop(s1==s4)
+
+12. dynamic dispatch give the output
+13. program for swapping two numbers without third variable
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company name: Monjin
+
+introduce yourself
+explain project
+@Qualifier
+hibernate annotation
+put get post 
+@Autowired
+constructor based autowiring
+Inter Thread communication program
+Create rest api with @pathvariable
+Write a program for method overloading and overrriding
+what is static polymorphism
+if exception is not handled or caught by the method then how it will get handled
+what is IOC
+how u handled the exception 
+Implement a select statement to get the aggregate salary for year 2021 for each employee , 
+where there is employee_salary with field like id, name,salary,month,year 
+
+select max(employee_salary) as max_salary from employee where year=2021;
+
+create two table employee/department where employee is part of a department
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1. Introduce yourself 
+2. Explain your project
+3. what is your role in project
+4. Callable statement
+5.Jdbc steps 
+6.How to create maven project in spring 
+7. difference between post and put
+6. can we use post for update the record
+7. which collection you use in your project
+8. difference between hashmap and hashtable
+9. difference between arrayist and linkedlist
+10.how you test your API in postman?
+11.Diff between abstract and interface
+12.types of joins 
+13.why not support multiple inheritance in Java
+14. Can we create static constructor
+15. Abstract method
+16. Java 8 features
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1.n+1 hibernate
+2.Eureka server
+3.server discovery
+4. All advance java
+5. Find duplicate arry n sort it
+6.1
+    2 3
+    4 5 6
+    7 8 9 10 WAP
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: PTC company
+1.introduce yourself
+2.create rest for getmapping 
+3.collection...list set map. Diff
+4.create the thread on requirement 
+5.Internal working hasmap
+6.logic program.....
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company:PTC pune
+
+
+Introduce yourself:
+Explain static keyword
+Explain synchronised
+Difference between Hashmap and hashtable
+Explain thread
+Difference between method overriding and overloading
+Scenario of your project in which u used SQL query
+Explain Hibernate State
+
+Program for Prime number
+Program for ReversString
+Program for  Conversion (degree to radian)
+Program for Factorial
+Program for Fibonacci Series
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Cortex company
+1.introduce yourself
+2 what is your role in project
+3 static, finally, rest api methods
+4.All annotation used in project
+5 get and post
+6 lazy binding
+7 data leakage concept
+8 query
+9 program output
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 7.Database...which used
+8.Join concept in MySql
+9.query for join table
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: company-featsystem
+
+1.Patten program
+
+1
+* 3
+* 5 *
+7 * 9 *
+
+2.String array[] = {"97","Chitra","15","25","Mallika"}= addition of numbers from string array
+3. Ternary operator
+4.String data = "957,284,312.549"-replace , with . and vice versa
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: 1.introduce yourself briefly
+2. Oops concepts
+3.Abstract clas and interface deffrance
+4.collection use in project
+5.method overriding progam
+6 String palendrom without using reverse method
+7.spring fremwork
+8.why constructor use in abstract class
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: company-Direction Software
+
+1.introduce yourself
+
+2.WAP in this given array [ 1,0,3,6,0,9,0] shift all 0 in right side
+3. Internal working of hashmap and treeset
+4.dependency injection
+5.by using post method with message display on response
+6.differen bet egger and lazy
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company-Direction llp
+1.oops concepts
+2.java feature
+3.Architectural neutral, platform independent
+4.object class and its method
+5.Dependency injection
+6.volatile keywords
+7.method overload and override
+8.loosely coupled, rightly coupled
+9.WAP for find out all  permutations of given string
+10.WAP for input... aaaabbbbccccdddd and expected a4b4c4d4..
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company-6 d technologies
+1.introduce itself
+2.explain project in brief
+3.hibernate mapping
+4.constructor
+5.lazy and egar loading concepts
+6.AOP,advice
+7.funcional interface ( pedicate,consumer)
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company -Q3
+1.What is singleton class?
+2.opps concepts
+3. Why we use wrapper class?
+4.Difference between interface and inheritance?
+5.Types of polymorphism
+6.how we apply sequrity in spring boot project? 
+7.find duplicate from array.
+8.find second largest number from array.
+9.find character from string which occurred maximum times.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Coditas
+1. Introduce
+2. Explain Oops pillar
+3. Diff between Collection & Collections.
+4. Collection advantages over array.
+5. What is Type-safety in collection.
+6. Final/Finally & Finalized
+7. Comparable vs Comparator
+8. Getmapping/ requestmapping.
+9. Program to sort Employee list using comparator.
+10. Self join query in MySQL.
+11. Different profile used in Spring boot.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Marlabs: 
+
+1. Arraylist vs Vector
+2. Reverse array program without sort method.
+3. Reverse string program.
+4. How to connect Hibernate with Spring.
+5. How to change port number in spring boot.
+6. Is session factory thread safe if yes why?
+7. What is JPA.
+8. What is starter dependency?
+9. Module worked on previous project.
+10. Give brief project summary.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Hyniva
+
+1. Introduce
+2. Abstract/ Interface
+3. Final if apply to method.
+4. Polymorphism describe?
+5. Program for iterating list and finding specific object through its index.
+6. Different layers of Spring boot.
+7. Explain what is use of controller class in spring boot.
+8. Lamba use?
+10. What is runtime expection?
+11. Exception handling
+12. Can we handle exception using any annotations.
+13. How to connect with database in spring boot.
+14. What is ORM and JPA?
+15. What are different mapping annotations?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Persistance :
+
+1. Introduce yourself
+2. Arraylist vs Linkedlist
+3. Hashmap internal working.
+4. Functional interface use.
+5. Aware about Unix/ JavaScript.
+6. What is stream API
+7. What is RestAPI
+8. Use of RestAPI in your project?
+9. Various annotations in Spring boot.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Bitwise
+1.pragram to count dublicate from Arryaylist not using string
+2.Program on stream API
+3.comparable & comparator
+4.hashmap internal workink
+5.spring boot annotation
+6.put patch and post method diff
+7.custem exception
+8.lmmutable class.
+9.final keyword
+10 SQL query
+11.actuator in spring boot
+12.diff bet controller & restcontroller.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Prodapt
+
+1. Program to swap two variable without using third variable
+2. Explain profiling in Spring boot 
+3. What will happen if we create service class in a package outside of main package in Spring boot?
+4. Component Scan
+5. Stream API
+6. What will happen if we insert same object as key in HashMap?
+7. How to disable AutoConfigurated class?
+8. How to disable server in Spring boot?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: IRIS
+
+1) which collection you usd in project
+2) arraylist and hashset diff.
+3) multithreadig 
+4) oops concept
+5) diff.of overloading and override
+6) array and arrylist diff.
+7) strength and weekenss
+8) trouble in work and how it manage
+9) spring , hibernate therory
+10) thread life cycle 
+11 ) annotataion
+12) why spring use?
+13) MySQL query to find the top 3 salarys of employee.
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company :Ericsson Global
+
+what is  log4j?
+SQL case?
+what is thread local?
+which collection is fail safe ?
+if i want to enable 2nd level catche what we need to in pom.xml file?
+rather than load and get method which method we can use in 2nd level catche?
+how you handle bug in your project?
+diff between composition aggrigation, association?
+how the collision will occured and how to resolve it?
+fetch the data from employee table whose employee salary is medium highest and lowest?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Cognizant
+1. Introduce yourself
+2. Different ways to Create the object
+3. Method hiding
+4. How we remove array list duplicate elements except by using set
+5. Custom exception
+6. Exception concept in method overriding
+7. @configure annotation
+8. @qualifier annotation
+9. Remove duplicates from string without using set
+10. Immutable class 
+11. Rea time exmple of immutable class
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: company: virtusa 
+what composition?
+what is interface?
+difference between spring boot and spring framework?
+how many ways to configure web application?
+what kind of  the responsibilities u have done in your project?
+Diffrance between failsafe  and fail fast?
+Logging?
+Find the closest number in array?
+Spring boot Common CLI command ?
+Can we create non – web application in spring boot?
+How many module u create in ur project?
+How mapping is worked in spring boot?
+How to achieve security in spring boot?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Capgemini-
+
+Q Introduce Yourself
+Q Roles and responsiblities
+Q. add(Integer i1,Integer 12)
+   add(Object o1,Object o2)
+in above which will take null
+  i.e. add(null,null)
+
+Q.add(Integer i1,Integer 12)
+   add(String s1,String s2)
+in above which will take null
+  i.e. add(null,null)
+Q Fibonacci program
+Q String s="Chitra Khandale"
+  Write a program to print only unique character not duplicates
+Q.Hashmap,Conqurret hashmap,Hashtable difference
+Q. Fail fast anf fail safe difference
+Q java 8 features with program
+Q spring and springboot difference
+Q how u can make immutable class
+Q what is immutable
+Q @controller and @restController difference
+Q what is @ComponentScan
+Q List<Object> l=new List<String>(); will it work?
+Q questions about the project what part have u …
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: company: virtusa 
+Introduction
+How u test API by unit testing
+How u handle the exception in your project?
+How u done server side validation ?
+What is Actuator?
+what composition?
+what is profile in spring boot?
+How u scale the microservices?
+From last week what activities perform by you in project?
+Thread & thread dump?
+Find the closest number in array?
+Print the pattern
+1
+12
+234
+6789
+Spring boot Common CLI command ?
+How to achieve security in spring boot?
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Allianz Technology
+1.introduction
+2.java 8 features
+3.Exception chaining
+4. How to handle exception in Java
+5.exception prapogation
+6.collection
+7.different annotations used in spring boot
+8.how to create spring boot Project
+9.cache mechanism in hibernate
+10.interfaces in hibernate
+11.get vs load
+12.rest vs.soap
+13.what is stream api
+14.hibernate inheritance 
+15.roles in your project
+16.are u working on deployment of your project
+17.have u work on junit
+18.what is hashmap
+19. Post vs put
+20.logger or log4j
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Global logic
+Introduction
+Oops
+Exception handling
+Diff between Exception n error
+Can we call run method directly? What will happen?
+Synchronize block use
+Stream api how to use its method
+Collection..diff between hashmap n hashtable
+Multithreading
+Get api
+Datastructure
+Work on any user interface?
+Microservices
+Diff between  architecture n microservices
+Work on Microservices?
+Role in project?
+Lamda expression for each method optional class functional interfaces 
+Default static method in interface
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Accortil
+Introduce yourself
+What is your project?
+Tell the layers of project
+Which version of java is used.
+ features of java 8
+When we use lambada expression 
+What is the instance variables
+Inheritance concept
+Runtime polymorphism  
+A array contains 1-100 numbers not in sorted manner then print the missing numbers.
+Program to find max and min number from array
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Birla soft
+Why we use functional interface
+Logger log4j
+Junit
+What is test cases
+Hibernate 
+Right join with example
+Program to remove duplicate from string
+Annotation service component
+Sql query
+Optional class
+How you deploy ur project
+Different environment in project
+Interview on whatsapp call
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Altmetric
+
+1.introduce yourself 
+2. Explain your project 
+3.how u handle the exception in your project
+4. How you done validation in your project.
+5. How you tackle the obstacle in your project.
+6.diff between bubble sort and quick sort 
+7. Custom sorting
+8.  Binary number program
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Birla soft Interview 
+
+class Test{
+   //Fix the following method, write the code 
+   private String hideData(String data){
+      // example data: "Rama-1234-A123"
+      // Return    Rama-XXXX-XX23
+	
+	
+   }
+}
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: CRIF 
+1. introduce your self 
+2. project flow
+3. diff between comparable and comparator
+4. Diff between pathparam and queryparam
+5. Which type of  collection you used in your project explain brigade
+6. How many ways to autogonfigure the spring boot
+7. Int a{7,2,5,6,8} target =13 find unsorted integer array find the pair the for eg. 7+6
+Or 8+5  =13
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company: Charterglobal
+1. Java 8 features
+2. Rest API authentication
+3. Spring MVC intersect spring MVC
+4. How we can fix date and time
+5. Alphanumeric steam api
+6. Difference between map and flat map
+7. Skip method in stream api
+8.net binder
+9.class not found exception and no class error
+10. Remove elements in stream api
+11. Find even no. And sum of even no. In stream api
+12. Actuator
+13. Find same name in stream api
+14.print prime no.1-100
+15.skip method stream
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: String s="Rama-1234-A123";
+		String s1=s.replace("1234", "xxxx");
+		String s2=s1.replace("A1", "xx");
+		System.out.println(s2);
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Company: Birlasoft
+1. Project
+2. All core Java
+3. Data base connection in hibernate n spring
+4. How many ways to Sorting Id n name
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: Wipro
+1.Hashmap internal working.
+2.Immutable class
+3.singleton class
+4.string &string buffer
+5.Sql query
+6.join concept
+7.string s= java java oracle oracle find out count of word string
+8.project flow
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: QuessCorp
+1.introduce 
+2.which technologies used in project
+2.diff betn hashmap & linked hashmap
+3.when to use interface & when abstract class
+4.parent class work() method is override in child class and child class throws checked exception and parent class throws unchecked exception will it work?
+5.program for String s= gitika, find each character count
+6.java 8 features
+7.optional class use
+8.which java version you used
+9.how do you handle exception in your project
+[9:52 PM, 5/16/2022] @ Mamta Kalaskar: +1 
+Singleton program
+Write bubble sort algorithm
+Query to find 2nd highest salary
+Microservices in depth
+[9:53 PM, 5/16/2022] @ Mamta Kalaskar: Deloitte-
+
+Project architecture 
+Roles and responsibility 
+Difference between spring and spring boot 
+How to make class immutable 
+Logger 
+ThreadLocal 
+MVC flow 
+Autoboxing and AutoUnboxing
+[9:53 PM, 5/16/2022] @ Mamta Kalaskar: CGI 
+1. What is APO
+2. How microservices   communicate.
+3. Spring boot over spring.
+4. API design as per the scenarios they give like only I need to update address from employee bean
+5. What is Web client
+6. Contract between put and post method
+7. Array program 
+{2, 3, 6, 5, 8} find the pair of possible addition in the given array like 2+3 =5, 2+6 =8
+8. @qualifier
+9. How to add two diff database into our spring boot
+10. What is Service mesh
+11. Microservices design patterns
+12. decomposition pattern in microservices
+[9:53 PM, 5/16/2022] @ Mamta Kalaskar: Quness
+1.exception handling code?
+2.fetch 3rd highest salary from database?
+3.difference between method overloading and method overriding?
+4.how you handled exception in your project?
+5.how you provide sequrity to project?
+6.what is JUNIT?
+7.explain flow of project?
+[9:53 PM, 5/16/2022] @ Mamta Kalaskar: What is JIT
+what is trigger
+Types of trigger
+What will you do when you forget the password of MySQL
+What is transactional
+[9:53 PM, 5/16/2022] @ Mamta Kalaskar: Ascent
+
+Thread and thread safety
+Exception and exception handling
+Types of combination of try and catch block
+Collection
+Hashset and treemap
+Notify and notifyall
+Wait and sleep
+String and string constatnt pool also what is role of heap in string
+Agile methodology 
+Project description
+Database connection Methods used in project

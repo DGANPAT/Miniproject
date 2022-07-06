@@ -1,0 +1,60 @@
+public class MySingleton
+{
+private static String singleton;
+private MySingleton(){
+}
+public static MySingleton getSingletonObj(String singleton){
+Synchronised(MySingleton.class){
+
+if(singleton==null)
+{
+	return singleton=new MySingleton();
+}
+else
+{
+	return singleton;
+}
+}
+}
+
+protected Object clone()
+{
+	try{
+		return singleton;
+	}
+	catch(exception)
+{
+	return null;
+}
+protected Object readResolve(){
+return singleton;
+}
+
+public class A
+{
+public void getExample()
+{
+	System.out.println("1");
+}
+
+public class B extends A
+{
+	public void getexample()
+{
+	System.out.println("2");
+}
+
+public class Main
+{
+public static void main(String[] args)
+{
+ A a=new A();
+a.getExample();
+}
+}
+select marks from student where marks<=30;
+update from student where marks<=30;
+
+
+
+

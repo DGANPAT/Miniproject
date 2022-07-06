@@ -1,0 +1,4 @@
+public class A1{
+
+public stastic void main(String[]args){
+System.out.println("The Velocity Corporate training centre");

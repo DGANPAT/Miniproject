@@ -1,0 +1,28 @@
+ @RestController
+@
+public class COntrolweer
+{
+@Autowired
+Service service;
+
+@Getmapping("getAll")
+public ResponseEntiry  Iterable<Student> getAllStudentlist(@pathveriable Name name){
+serivice.getAllStudentlist();
+return ResponseEntity.ok().body();
+
+@Service
+class Service
+@Autowired
+Repository rep;
+public Iterable<Student> findAll(Name name)
+repo.getAllList();
+
+@Repository
+repository extends Jparepository<Student,serilizable>
+{
+
+public Iterable <Student> FindById(Integer id);
+}
+
+
+

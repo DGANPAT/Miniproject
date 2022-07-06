@@ -1,0 +1,60 @@
+ 
+public class A
+{
+	public static void main(String[] args)
+
+
+	{	
+		A a=new A();
+		a.m1();
+		a,m1("black");
+
+	}
+		void m1(){
+				
+			System.out.println("Dog is angry")
+		}
+
+	void m1(String s){
+				
+			System.out.println("Dog is cool")
+		}
+}
+
+	int [] a={-4,1,5,-9,2,0};
+	-4,-9,0,2,5,1,0
+
+		for(int i=0;i<=a.length;i++)
+		{
+			for(int j=i+1;j<=a.length;j++)
+			{
+				if(a[i]>a[j])
+					{
+						int temp=a[i];
+						a[i]=a[j];
+						a[j]=temp
+					}
+			}
+		}
+	System.out.println(a[i]);
+}
+
+ HashMap<String,Integer> mo=mew HashMap<String,Integer>();
+mo.put("A",10);
+mo.put("AA",110);
+
+mo.put("AA",120);
+
+Set<HashMap<String,Integer>> sets=mo.entrySet();
+for(HashMap<String,Integer> key:sets)
+{
+	System.out.println("key:"+mo.getKey()+"value:"+mo.getValue);
+}
+
+
+
+
+
+
+
+
