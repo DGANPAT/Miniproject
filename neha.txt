@@ -48,7 +48,23 @@ generate rotation =(s,start+1,end);
 
 
 
-
+public class Rotate{
+public static void main(String [] args){
+int length=s.length();
+String output="";
+char[]ch=s.toCharArray();
+String start,end=0;
+System.out.println("Enter the String");
+Scanner r=new Scanner(System.in);
+r.nextLine();
+System.out.println("all rotation");
+generate rotation (s,0,len);
+if(start==end-1){
+System.out.println(s);
+else{
+for(int =start;i<end;i++){
+s=swap(s,start,end);
+generate rotation =(s,start+1,end);
 
 
 
